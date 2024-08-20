@@ -44,7 +44,7 @@
 // export default Navbar;
 
 import React, { useState } from "react";
-import { FaBars } from "react-icons/fa"; // Assuming you are using react-icons library
+import { FaBars } from "react-icons/fa"; //  react-icons library
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
