@@ -1,4 +1,6 @@
 import pic from "../assets/pic.jpg";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+
 const Hero = () => {
   return (
     <>
@@ -6,12 +8,8 @@ const Hero = () => {
         {/* <!-- icons container --> */}
         <ul className="flex space-x-4">
           <li>
-            <a
-              className="text-white hover:text-gray-400"
-              href="https://github.com/sixeyes198"
-              target="_blank"
-            >
-              <i className="bx bxl-github text-2xl"></i>
+            <a href="https://github.com/sixeyes198" target="_blank">
+              <FaGithub className="bx bxl-github text-2xl text-black hover:text-blue-300"></FaGithub>
             </a>
           </li>
           <li>
@@ -20,7 +18,7 @@ const Hero = () => {
               href="https://www.linkedin.com/in/yossi-guadie-78b30a273/"
               target="_blank"
             >
-              <i className="bx bxl-linkedin-square text-2xl"></i>
+              <FaLinkedin className="bx bxl-linkedin-square text-2xl  text-blue-600 hover:text-blue-800"></FaLinkedin>
             </a>
           </li>
         </ul>

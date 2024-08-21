@@ -2,8 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+.text-2xl {
+  font-size: 35px;
+}
+.tracking-wide {
+  font-size: 30px;
+}
 .mt-4 {
   font-family: Edu TAS Beginner;
+  font-size: 27px;
 }
 .p-1 {
   font-family: Agbalumo;
