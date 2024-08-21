@@ -9,8 +9,8 @@ const Navbar = () => {
   };
 
   return (
-    <header className="bg-cyan-700 text-black">
-      <nav className="container mx-auto p-4 flex justify-between items-center">
+    <header className="bg-cyan-700 text-black py-2">
+      <nav className="container mx-auto  flex justify-between items-center">
         {/* Hamburger menu icon for small screens */}
         <div className="flex items-center">
           <FaBars
@@ -19,27 +19,27 @@ const Navbar = () => {
           />
           {/* Menu items */}
           <ul
-            className={`absolute md:relative top-12 left-0 md:top-auto md:left-auto md:flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4 bg-gray-600 md:bg-transparent w-full md:w-auto ${
+            className={`absolute md:relative top-10 left-0 md:top-auto md:left-auto md:flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4 bg-cyan-500 bg-opacity-80 md:bg-transparent w-1/2 h-4/6 md:w-auto ${
               isOpen ? "block" : "hidden"
             }`}
           >
             <li>
-              <a href="#" className="hover:text-white">
+              <a href="#" className="block p-2 hover:text-white">
                 Home
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-white">
+              <a href="#" className="block p-2 hover:text-white">
                 About
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-white">
+              <a href="#" className="block p-2 hover:text-white">
                 Projects
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-white">
+              <a href="#" className="block p-2 hover:text-white">
                 Contact
               </a>
             </li>
