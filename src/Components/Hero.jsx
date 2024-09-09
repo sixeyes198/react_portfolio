@@ -1,5 +1,5 @@
 import pic from "../assets/pic.jpg";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaReact, FaGitAlt } from "react-icons/fa";
 
 const Hero = () => {
   return (
@@ -14,9 +14,9 @@ const Hero = () => {
             As a developer with a passion for creating seamless, user-friendly
             applications, I specialize in both front-end and back-end
             development. My expertise lies in utilizing modern frameworks like
-            React and Node.js to build scalable, efficient solutions.
+            React, Node.js, git, to build scalable, efficient solutions.
           </p>
-          {/* <!-- icons container --> */}
+          {/* <!-- profiles icons container --> */}
           <ul className="flex justify-center md:justify-start flex-row mt-8 space-x-4">
             <li>
               <a href="https://github.com/sixeyes198" target="_blank">
@@ -43,6 +43,22 @@ const Hero = () => {
             className=" w-80 h-80 max-w-xs max-h-xs rounded-full object-cover mt-10"
           />
         </div>
+      </div>
+      {/*Skills icons container*/}
+      <div>
+        <ul className="md:justify-start flex-row items-center mt-8 space-x-4">
+          <li>
+            <FaGithub className="text-2xl"></FaGithub>
+          </li>
+          <li>
+            <FaReact className="text-2xl"></FaReact>
+          </li>
+          <li>
+            <FaGitAlt className="text-2xl"></FaGitAlt>
+          </li>
+          <li></li>
+          <li></li>
+        </ul>
       </div>
     </>
   );

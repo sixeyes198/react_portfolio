@@ -14,7 +14,7 @@ const Navbar = () => {
         {/* Hamburger menu icon for small screens */}
         <div className="flex items-center">
           <FaBars
-            className="text-black cursor-pointer md:hidden"
+            className="text-black cursor-pointer md:hidden mx-10"
             onClick={toggleMenu}
           />
           {/* Menu items */}
@@ -26,15 +26,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#"
-                className="block p-2 hover:text-white bg-opacity-50 hover:bg-slate-300 rounded-md"
-              >
-                Home
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="block p-2 hover:text-white bg-opacity-50 hover:bg-slate-300 rounded-md"
+                className="block p-2 hover:text-white bg-opacity-50 hover:bg-zinc-100 rounded-md"
               >
                 About
               </a>
@@ -42,7 +34,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#"
-                className="block p-2 hover:text-white bg-opacity-50 hover:bg-slate-300 rounded-md"
+                className="block p-2 hover:text-white bg-opacity-50 hover:bg-zinc-100 rounded-md"
               >
                 Projects
               </a>
@@ -50,7 +42,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#"
-                className="block p-2 hover:text-white bg-opacity-50 hover:bg-slate-300 rounded-md"
+                className="block p-2 hover:text-white bg-opacity-50 hover:bg-zinc-100 rounded-md"
               >
                 Contact
               </a>
@@ -59,7 +51,7 @@ const Navbar = () => {
         </div>
         {/* Email button */}
         <div className="mt-2 md:mt-0">
-          <button className="rounded-full bg-slate-800 hover:bg-slate-200 text-white hover:text-black font-bold py-2 px-4 ">
+          <button className="rounded-full border border-gray-400 bg-white hover:bg-zinc-100 text-black font-bold py-2 px-4 ">
             Email
           </button>
         </div>
