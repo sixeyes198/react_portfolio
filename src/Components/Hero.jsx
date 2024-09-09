@@ -54,7 +54,7 @@ const Hero = () => {
         </div>
       </div>
       {/*Skills icons container*/}
-      <div className="flex justify-center mt-14">
+      <div className="flex justify-center mt-20">
         <ul className="flex flex-row items-center space-x-6">
           <li className="group">
             <div className="bg-gray-100 p-4 rounded-full hover:bg-gray-300 transition duration-300 transform group-hover:scale-110">
