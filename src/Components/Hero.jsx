@@ -1,5 +1,14 @@
 import pic from "../assets/pic.jpg";
-import { FaGithub, FaLinkedin, FaReact, FaGitAlt } from "react-icons/fa";
+import {
+  FaGithub,
+  FaLinkedin,
+  FaReact,
+  FaGitAlt,
+  FaJs,
+  FaHtml5,
+} from "react-icons/fa";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { SiMongodb, SiMysql } from "react-icons/si";
 
 const Hero = () => {
   return (
@@ -45,19 +54,48 @@ const Hero = () => {
         </div>
       </div>
       {/*Skills icons container*/}
-      <div>
-        <ul className="md:justify-start flex-row items-center mt-8 space-x-4">
-          <li>
-            <FaGithub className="text-2xl"></FaGithub>
+      <div className="flex justify-center mt-14">
+        <ul className="flex flex-row items-center space-x-6">
+          <li className="group">
+            <div className="bg-gray-100 p-4 rounded-full hover:bg-gray-300 transition duration-300 transform group-hover:scale-110">
+              <FaGithub className="text-3xl text-purple-600" />
+            </div>
           </li>
-          <li>
-            <FaReact className="text-2xl"></FaReact>
+          <li className="group">
+            <div className="bg-gray-100 p-4 rounded-full hover:bg-gray-300 transition duration-300 transform group-hover:scale-110">
+              <FaReact className="text-3xl text-blue-500" />
+            </div>
           </li>
-          <li>
-            <FaGitAlt className="text-2xl"></FaGitAlt>
+          <li className="group">
+            <div className="bg-gray-100 p-4 rounded-full hover:bg-gray-300 transition duration-300 transform group-hover:scale-110">
+              <FaGitAlt className="text-3xl text-red-500" />
+            </div>
           </li>
-          <li></li>
-          <li></li>
+          <li className="group">
+            <div className="bg-gray-100 p-4 rounded-full hover:bg-gray-300 transition duration-300 transform group-hover:scale-110">
+              <FaJs className="text-3xl text-yellow-500" />
+            </div>
+          </li>
+          <li className="group">
+            <div className="bg-gray-100 p-4 rounded-full hover:bg-gray-300 transition duration-300 transform group-hover:scale-110">
+              <FaHtml5 className="text-3xl text-orange-600"></FaHtml5>
+            </div>
+          </li>
+          <li className="group">
+            <div className="bg-gray-100 p-4 rounded-full hover:bg-gray-300 transition duration-300 transform group-hover:scale-110">
+              <RiTailwindCssFill className="text-3xl text-blue-600"></RiTailwindCssFill>
+            </div>
+          </li>
+          <li className="group">
+            <div className="bg-gray-100 p-4 rounded-full hover:bg-gray-300 transition duration-300 transform group-hover:scale-110">
+              <SiMongodb className="text-3xl text-green-600"></SiMongodb>
+            </div>
+          </li>
+          <li className="group">
+            <div className="bg-gray-100 p-4 rounded-full hover:bg-gray-300 transition duration-300 transform group-hover:scale-110">
+              <SiMysql className="text-3xl text-cyan-500"></SiMysql>
+            </div>
+          </li>
         </ul>
       </div>
     </>
