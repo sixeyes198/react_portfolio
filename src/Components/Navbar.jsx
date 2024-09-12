@@ -26,7 +26,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#"
-                className="block p-2 hover:text-white bg-opacity-50 hover:bg-zinc-100 rounded-md"
+                className="block p-2 bg-opacity-50 hover:bg-zinc-100 rounded-md hover:rounded-full"
               >
                 About
               </a>
@@ -34,7 +34,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#"
-                className="block p-2 hover:text-white bg-opacity-50 hover:bg-zinc-100 rounded-md"
+                className="block p-2  bg-opacity-50 hover:bg-zinc-100 rounded-md hover:rounded-full"
               >
                 Projects
               </a>
@@ -42,7 +42,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#"
-                className="block p-2 hover:text-white bg-opacity-50 hover:bg-zinc-100 rounded-md"
+                className="block p-2 bg-opacity-50 hover:bg-zinc-100 rounded-md hover:rounded-full"
               >
                 Contact
               </a>
