@@ -8,7 +8,8 @@ import {
   FaHtml5,
 } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
-import { SiMongodb, SiMysql } from "react-icons/si";
+import { SiMongodb, SiMysql, SiExpress } from "react-icons/si";
+import { IoLogoNodejs } from "react-icons/io";
 
 const Hero = () => {
   return (
@@ -94,6 +95,16 @@ const Hero = () => {
           <li className="group">
             <div className="bg-gray-100 p-4 rounded-full hover:bg-gray-300 transition duration-300 transform group-hover:scale-110">
               <SiMysql className="text-3xl text-cyan-500"></SiMysql>
+            </div>
+          </li>
+          <li className="group">
+            <div className="bg-gray-100 p-4 rounded-full hover:bg-gray-300 transition duration-300 transform group-hover:scale-110">
+              <IoLogoNodejs className="text-3xl text-green-500"></IoLogoNodejs>
+            </div>
+          </li>
+          <li className="group">
+            <div className="bg-gray-100 p-4 rounded-full hover:bg-gray-300 transition duration-300 transform group-hover:scale-110">
+              <SiExpress className="text-3xl text-red-600"></SiExpress>
             </div>
           </li>
         </ul>
