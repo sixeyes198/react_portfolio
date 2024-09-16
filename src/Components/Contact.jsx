@@ -11,12 +11,16 @@ const Contact = () => {
       <div className="flex items-center justify-center w-full">
         <p className="justify-center">
           Currently looking for a Full-time job as a Front-end or Fullstack
+          developer
         </p>
       </div>
       {/* Email button */}
       <div className="mt-2 md:mt-0 flex items-center justify-center w-full">
-        <button className="mt-3 mb-5 rounded-full border border-gray-400 bg-white hover:bg-zinc-100 text-black font-bold py-2 px-4 ">
+        <button className="mt-3 mb-5 rounded-full border border-blue-400 bg-white hover:bg-cyan-100 text-black font-bold py-2 px-4 ">
           Email
+        </button>
+        <button className="mt-3 mb-5 rounded-full border border-green-500 bg-white hover:bg-lime-100 text-black font-bold py-2 px-4 ml-2 ">
+          Message
         </button>
       </div>
     </>
