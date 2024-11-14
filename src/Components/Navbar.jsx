@@ -52,7 +52,7 @@ const Navbar = () => {
         {/* Email button */}
         <div className="mt-2 md:mt-0">
           <button className="rounded-full border border-gray-400 bg-white hover:bg-zinc-100 text-black font-bold py-2 px-4 ">
-            Email
+            <a href="mailto:yossiguadie@icloud.com">Email</a>
           </button>
         </div>
       </nav>
