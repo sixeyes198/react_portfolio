@@ -6,13 +6,16 @@ const Projects = () => {
           Projects
         </h2>
       </div> */}
-      <div class="inline-flex items-center justify-center w-full mt-48 ">
+
+      <div
+        id="projects"
+        class="inline-flex items-center justify-center w-full mt-48 "
+      >
         <hr class="w-64 h-px my-8 bg-gray-200 border-0 " />
         <span class="absolute px-3 font-medium mb-2 text-xl  tracking-tight text-gray-900 -translate-x-1/2 bg-white left-1/2 dark:text-black">
           Projects
         </span>
       </div>
-
       {/* card styling / might use this one not sure yet  */}
       {/* <div className="max-w-sm mx-20 mt-10 mb-5 bg-white border-gray-200 rounded-lg shadow dark:border-gray-700">
         <img className="rounded-t-lg" />

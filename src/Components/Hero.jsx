@@ -14,7 +14,10 @@ import { IoLogoNodejs } from "react-icons/io";
 const Hero = () => {
   return (
     <>
-      <div className="container mx-auto p-6 flex flex-col md:flex-row items-center space-y-6 md:space-y-0 md:space-x-6 mt-10">
+      <div
+        id="about"
+        className="container mx-auto p-6 flex flex-col md:flex-row items-center space-y-6 md:space-y-0 md:space-x-6 mt-10"
+      >
         <div className="text-center md:text-left">
           <h2 className="text-2xl font-bold tracking-wide mt-20">
             Yossi guadie

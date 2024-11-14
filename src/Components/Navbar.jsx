@@ -25,7 +25,7 @@ const Navbar = () => {
           >
             <li>
               <a
-                href="#"
+                href="#about"
                 className="block p-2 bg-opacity-50 hover:bg-zinc-100 rounded-md hover:rounded-full"
               >
                 About
@@ -33,7 +33,7 @@ const Navbar = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="#projects"
                 className="block p-2  bg-opacity-50 hover:bg-zinc-100 rounded-md hover:rounded-full"
               >
                 Projects
@@ -41,7 +41,7 @@ const Navbar = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="#contact"
                 className="block p-2 bg-opacity-50 hover:bg-zinc-100 rounded-md hover:rounded-full"
               >
                 Contact

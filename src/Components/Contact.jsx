@@ -2,7 +2,10 @@ const Contact = () => {
   return (
     <>
       {/* How to design the contact section ? */}
-      <div class="inline-flex items-center justify-center w-full mt-48 ">
+      <div
+        id="contact"
+        class="inline-flex items-center justify-center w-full mt-48 "
+      >
         <hr class="w-64 h-px my-8 bg-gray-200 border-0 " />
         <span class="absolute px-3 font-medium mb-2 text-xl  tracking-tight text-gray-900 -translate-x-1/2 bg-white left-1/2 dark:text-black">
           Get in touch
