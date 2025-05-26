@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 const Projects = () => {
   return (
     <>
@@ -7,15 +9,20 @@ const Projects = () => {
         </h2>
       </div> */}
 
-      <div
+      {/* Header with motion */}
+      <motion.div
         id="projects"
         class="inline-flex items-center justify-center w-full mt-48 "
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8 }}
+        viewport={{ once: true }}
       >
         <hr class="w-64 h-px my-8 bg-gray-200 border-0 " />
         <span class="absolute px-3 font-medium mb-2 text-xl  tracking-tight text-gray-900 -translate-x-1/2 bg-white left-1/2 dark:text-black">
           Projects
         </span>
-      </div>
+      </motion.div>
       {/* card styling / might use this one not sure yet  */}
       {/* <div className="max-w-sm mx-20 mt-10 mb-5 bg-white border-gray-200 rounded-lg shadow dark:border-gray-700">
         <img className="rounded-t-lg" />
@@ -40,7 +47,13 @@ const Projects = () => {
       </div> */}
 
       {/* card styling */}
-      <div className="mx-20 mt-10 mb-5 flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700  dark:hover:bg-gray-700">
+      <motion.div
+        className="mx-20 mt-10 mb-5 flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700  dark:hover:bg-gray-700"
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, delay: 0.2 }}
+        viewport={{ once: true }}
+      >
         <img className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg" />
         image here...
         <div className="flex flex-col justify-between p-4 leading-normal">
@@ -60,10 +73,16 @@ const Projects = () => {
             check it out
           </a>
         </div>
-      </div>
+      </motion.div>
 
       {/* card styling */}
-      <div className="mx-20 mt-10 mb-5 flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700  dark:hover:bg-gray-700">
+      <motion.div
+        className="mx-20 mt-10 mb-5 flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700  dark:hover:bg-gray-700"
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, delay: 0.2 }}
+        viewport={{ once: true }}
+      >
         <img className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg" />
         image here...
         <div className="flex flex-col justify-between p-4 leading-normal">
@@ -83,10 +102,16 @@ const Projects = () => {
             check it out
           </a>
         </div>
-      </div>
+      </motion.div>
 
       {/* card styling */}
-      <div className="mx-20 mt-10 mb-5 flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700  dark:hover:bg-gray-700">
+      <motion.div
+        className="mx-20 mt-10 mb-5 flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700  dark:hover:bg-gray-700"
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, delay: 0.2 }}
+        viewport={{ once: true }}
+      >
         <img className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg" />
         image here...
         <div className="flex flex-col justify-between p-4 leading-normal">
@@ -106,7 +131,7 @@ const Projects = () => {
             check it out
           </a>
         </div>
-      </div>
+      </motion.div>
     </>
   );
 };
