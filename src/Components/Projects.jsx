@@ -55,7 +55,7 @@ const Projects = () => {
         viewport={{ once: true }}
       >
         <img
-          className="object-cover w-full h-64 rounded-t-2xl  md:h-full md:w-64 md:rounded-none md:rounded-s-2xl"
+          className="ml-2 object-cover w-full h-64 rounded-t-2xl  md:h-full md:w-64 md:rounded-none md:rounded-s-2xl"
           src={Notes_app}
           alt="Project image"
         />
@@ -86,7 +86,7 @@ const Projects = () => {
         transition={{ duration: 0.8, delay: 0.2 }}
         viewport={{ once: true }}
       >
-        <img className="object-cover w-full h-64 rounded-t-2xl  md:h-full md:w-64 md:rounded-none md:rounded-s-2xl" />
+        <img className="ml-2 object-cover w-full h-64 rounded-t-2xl  md:h-full md:w-64 md:rounded-none md:rounded-s-2xl" />
         image here...
         <div className="flex flex-col justify-between p-6">
           <h5 className="mb-3 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white ">
@@ -115,7 +115,7 @@ const Projects = () => {
         transition={{ duration: 0.8, delay: 0.2 }}
         viewport={{ once: true }}
       >
-        <img className="object-cover w-full h-64 rounded-t-2xl  md:h-full md:w-64 md:rounded-none md:rounded-s-2xl" />
+        <img className="ml-2 object-cover w-full h-64 rounded-t-2xl  md:h-full md:w-64 md:rounded-none md:rounded-s-2xl" />
         image here...
         <div className="flex flex-col justify-between p-6">
           <h5 className="mb-3 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
