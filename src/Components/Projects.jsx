@@ -79,18 +79,12 @@ const Projects = () => {
       </motion.div>
 
       {/* card styling */}
-      <motion.div
-        className="mx-4 md:mx-20 mt-10 mb-5 flex flex-col items-center bg-white border border-gray-200 rounded-2xl shadow-md md:flex-row md:max-w-3xl hover:shadow-xl transition-all duration-300 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
-        initial={{ opacity: 0, y: 50 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8, delay: 0.2 }}
-        viewport={{ once: true }}
-      >
-        <img className=" object-cover w-full h-64 rounded-t-2xl  md:h-full md:w-64 md:rounded-none md:rounded-s-2xl ml-0 md:ml-2" />
-        coming soon ...
-        <div className="flex flex-col justify-between p-6">
-          <h5 className="mb-3 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white ">
-            Second project coming soon ...
+      <div className="mx-20 mt-10 mb-5 flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700  dark:hover:bg-gray-700">
+        <img className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg" />
+        image here...
+        <div className="flex flex-col justify-between p-4 leading-normal">
+          <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
+            Second project
           </h5>
           <p className="mb-4 text-gray-700 dark:text-gray-300 leading-relaxed">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -108,18 +102,12 @@ const Projects = () => {
       </motion.div>
 
       {/* card styling */}
-      <motion.div
-        className="mx-4 md:mx-20 mt-10 mb-5 flex flex-col items-center bg-white border border-gray-200 rounded-2xl shadow-md md:flex-row md:max-w-3xl hover:shadow-xl transition-all duration-300 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
-        initial={{ opacity: 0, y: 50 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8, delay: 0.2 }}
-        viewport={{ once: true }}
-      >
-        <img className="object-cover w-full h-64 rounded-t-2xl  md:h-full md:w-64 md:rounded-none md:rounded-s-2xl ml-0 md:ml-2" />
-        coming soon ...
-        <div className="flex flex-col justify-between p-6">
-          <h5 className="mb-3 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
-            Third project coming soon ...
+      <div className="mx-20 mt-10 mb-5 flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700  dark:hover:bg-gray-700">
+        <img className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg" />
+        image here...
+        <div className="flex flex-col justify-between p-4 leading-normal">
+          <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
+            Third project
           </h5>
           <p className="mb-4 text-gray-700 dark:text-gray-300 leading-relaxed">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit.
