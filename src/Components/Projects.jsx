@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import Notes_app from "../assets/Notes_app.jpg";
+import ethio_app from "../assets/ethio_app.png";
 const Projects = () => {
   return (
     <>
@@ -64,7 +65,7 @@ const Projects = () => {
             Notes app
           </h5>
           <p className="mb-4 text-gray-700 dark:text-gray-300 leading-relaxed">
-            full-stack web application built using MERN stack
+            Full-stack web application built using MERN stack
             (MongoDB,express,React,Node). It allows useres to create , view,
             update, Pin, and delete personal notes though a clean, user friendly
             interface
@@ -86,20 +87,27 @@ const Projects = () => {
         transition={{ duration: 0.8, delay: 0.2 }}
         viewport={{ once: true }}
       >
-        <img className=" object-cover w-full h-64 rounded-t-2xl  md:h-full md:w-64 md:rounded-none md:rounded-s-2xl ml-0 md:ml-2" />
-        coming soon ...
+        <img
+          className=" object-cover w-full h-64 rounded-t-2xl  md:h-full md:w-64 md:rounded-none md:rounded-s-2xl ml-0 md:ml-2"
+          src={ethio_app}
+          alt="Ethio Shop project image"
+        />
+
         <div className="flex flex-col justify-between p-6">
           <h5 className="mb-3 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white ">
-            Second project coming soon ...
+            Ethio shop
           </h5>
           <p className="mb-4 text-gray-700 dark:text-gray-300 leading-relaxed">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Repellendus nostrum officia explicabo suscipit in voluptatum
-            temporibus fugit nesciunt voluptate, accusamus aperiam. Facilis ea
-            quo cum libero reprehenderit modi perferendis error.
+            Full-Stack E-Commerce App web application built using MERN stack
+            Features: User Authentication:JWT-based signup/login Product
+            Management: CRUD operations for products Shopping Cart: Add/remove
+            items, update quantities, auto-calculate totals Payment Integration:
+            Stripe checkout for secure payments Contact Form: Messages saved in
+            DB and sent via email Deployment: Backend on Render, frontend live
+            Demonstrates full-stack development, payment integration.
           </p>
           <a
-            href="#"
+            href="https://ethio-shop-b0zq.onrender.com/"
             className="inline-flex items-center w-fit px-4 py-2 text-sm font-medium text-white bg-blue-600 rounded-lg hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-500 dark:hover:bg-blue-600 dark:focus:ring-blue-800 transition-colors"
           >
             check it out
