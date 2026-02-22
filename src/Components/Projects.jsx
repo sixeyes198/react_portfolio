@@ -127,7 +127,7 @@ const Projects = () => {
         coming soon ...
         <div className="flex flex-col justify-between p-6">
           <h5 className="mb-3 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
-            Third project coming soon ...
+            under construction
           </h5>
           <p className="mb-4 text-gray-700 dark:text-gray-300 leading-relaxed">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit.
