@@ -100,7 +100,8 @@ const Projects = () => {
           <p className="mb-4 text-gray-700 dark:text-gray-300 leading-relaxed">
             Full-Stack E-Commerce App web application built using MERN stack
             Features: User Authentication:JWT-based signup/login Product
-            Management: CRUD operations for products Shopping Cart: Add/remove
+            Management: CRUD operations for products admin  dashboard for cartn management
+            Shopping Cart: Add/remove
             items, update quantities, auto-calculate totals Payment Integration:
             Stripe checkout for secure payments Contact Form: Messages saved in
             DB and sent via email Deployment: Backend on Render, frontend live
