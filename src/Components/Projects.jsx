@@ -66,9 +66,9 @@ const Projects = () => {
           </h5>
           <p className="mb-4 text-gray-700 dark:text-gray-300 leading-relaxed">
             Full-stack web application built using MERN stack
-            (MongoDB,express,React,Node). It allows useres to create , view,
+            (MongoDB,express,React,Node).<br/> It allows useres to create , view,
             update, Pin, and delete personal notes though a clean, user friendly
-            interface
+            interface.
           </p>
           <a
             href="https://notes-app-90x5.onrender.com/"
@@ -99,11 +99,10 @@ const Projects = () => {
           </h5>
           <p className="mb-4 text-gray-700 dark:text-gray-300 leading-relaxed">
             Full-Stack E-Commerce App web application built using MERN stack
-            Features: User Authentication:JWT-based signup/login Product
-            Management: CRUD operations for products admin  dashboard for cartn management
-            Shopping Cart: Add/remove
-            items, update quantities, auto-calculate totals Payment Integration:
-            Stripe checkout for secure payments Contact Form: Messages saved in
+            Features: User Authentication: JWT-based signup/login <br/> Product
+            Management: CRUD operations for products <br/>admin  dashboard for cart management
+            Shopping Cart: Add/remove items, update quantities. <br/>auto-calculate totals Payment Integration:
+            Stripe checkout for secure payments<br/> Contact Form: Messages saved in
             DB and sent via email Deployment: Backend on Render, frontend live
             Demonstrates full-stack development, payment integration.
           </p>
